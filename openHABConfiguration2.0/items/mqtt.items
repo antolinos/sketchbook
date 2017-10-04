@@ -1,0 +1,5 @@
+Number alex_temp "Temperature [%.1f]" (Alex) {mqtt="<[<broker>:alex/temperature:state:default]"} 
+Number alex_humidity  "Humidity [%.1f]" (Alex) {mqtt="<[<broker>:alex/humidity:state:default]"} 
+
+Number saloon_temp "Humidity [%.1f]" (Saloon) {mqtt="<[<broker>:saloon/temperature:state:default]"} 
+Number saloon_humidity "Humidity [%.1f]" (Saloon) {mqtt="<[<broker>:saloon/humidity:state:default]"} 

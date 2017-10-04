@@ -1,0 +1,12 @@
+sitemap demo label="Test"
+{
+        Frame label="alex" {
+            Text item=alex_temp
+            Text item=alex_humidity
+        }
+
+       Frame label="saloon" {
+            Text item=saloon_temp
+            Text item=saloon_humidity
+        }
+}
