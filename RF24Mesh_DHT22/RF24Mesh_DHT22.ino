@@ -99,7 +99,7 @@ void loop() {
     
     payload_t payload;
     payload.nodeId = 1;
-    String topic = "saloon/temperature";
+    String topic = "alex/temperature";
     String message = String(temp_string);
     payload.topic_length = topic.length();
     payload.message_length = message.length();
@@ -127,7 +127,7 @@ void loop() {
       Serial.print("Send OK: "); Serial.println(displayTimer);
     }
     payload.nodeId = 1;
-    topic = "saloon/humidity";
+    topic = "alex/humidity";
     message = String(hum_string);
     payload.topic_length = topic.length();
     payload.message_length = message.length();

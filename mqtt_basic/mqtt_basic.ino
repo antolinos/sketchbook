@@ -1,3 +1,5 @@
+#include <Adafruit_Sensor.h>
+
 /*
  *************************************************************************
    RF24Ethernet Arduino library by TMRh20 - 2014-2015
